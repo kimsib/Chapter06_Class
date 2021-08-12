@@ -14,10 +14,11 @@ public class Calculator_ {
 		return result;
 	}
 
-	void execute () {
+	void execute() {
 		double result = avg(7, 10);
-		println("실행결과:" + result );
+		println("실행결과:" + result);
 	}
+
 	void println(String message) {
 		System.out.println(message);
 	}
